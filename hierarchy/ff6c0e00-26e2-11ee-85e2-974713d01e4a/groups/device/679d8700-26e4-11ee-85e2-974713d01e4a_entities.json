@@ -1,0 +1,22 @@
+[ {
+  "entityType" : "DEVICE",
+  "id" : "3e5b08e0-26df-11ee-85e2-974713d01e4a"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "51c5e3f0-26df-11ee-85e2-974713d01e4a"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "5d895610-26e2-11ee-9de1-03edeeee4910"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "68eb75b0-26e2-11ee-9de1-03edeeee4910"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "7611da90-26e2-11ee-9de1-03edeeee4910"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "c19f45a0-26de-11ee-917f-d1a58daa6e1a"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "c4833b60-2791-11ee-9de1-03edeeee4910"
+} ]

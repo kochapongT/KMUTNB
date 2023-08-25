@@ -1,0 +1,1115 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "e3895960-278f-11ee-85e2-974713d01e4a"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "e3764690-278f-11ee-85e2-974713d01e4a"
+    },
+    "name" : "Edge Count Rule Chain",
+    "root" : false,
+    "type" : "EDGE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "True"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 6,
+      "type" : "False"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 6,
+      "type" : "False"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 4,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 5,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 7,
+      "type" : "RPC Request from Device"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 8,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 9,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 10,
+      "type" : "Attributes Deleted"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 10,
+      "type" : "Attributes Updated"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 10,
+      "type" : "Timeseries Deleted"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 10,
+      "type" : "Timeseries Updated"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 21,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 18,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 15,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 13,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 16,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 24,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 29,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 31,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 35,
+      "type" : "True"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 19,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 3,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 26,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 23,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 22,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 27,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 29,
+      "toIndex" : 23,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 30,
+      "toIndex" : 32,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 30,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 32,
+      "toIndex" : 33,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 36,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
+      "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 36,
+      "toIndex" : 37,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 11,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 210,
+        "layoutY" : 278
+      },
+      "configuration" : {
+        "originatorTypes" : [ "ENTITY_GROUP" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e3840230-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Is Entity Group",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 296,
+        "layoutY" : 60
+      },
+      "configuration" : {
+        "messageTypes" : [ "POST_ATTRIBUTES_REQUEST", "RPC_CALL_FROM_SERVER_TO_DEVICE" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e384ec90-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Post attributes or RPC request",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 553,
+        "layoutY" : 59
+      },
+      "configuration" : {
+        "entityGroupId" : null,
+        "entityGroupIsMessageOriginator" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38561c0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Duplicate To Group Entities",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToGroupNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
+        "layoutX" : 475,
+        "layoutY" : 430
+      },
+      "configuration" : {
+        "persistAlarmRulesState" : false,
+        "fetchAlarmRulesStateOnStart" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e385d6f0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Device Profile Node",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 824,
+        "layoutY" : 265
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e3864c20-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 823,
+        "layoutY" : 153
+      },
+      "configuration" : {
+        "scope" : "CLIENT_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e386e860-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Client Attributes",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 480,
+        "layoutY" : 266
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e3875d90-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Message Type Switch",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 827,
+        "layoutY" : 368
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e387abb0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Log RPC from Device",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 830,
+        "layoutY" : 474
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38820e0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Log Other",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 838,
+        "layoutY" : 576
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e3889610-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "RPC Call Request",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1134,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e388e430-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 50,
+        "layoutY" : 460
+      },
+      "configuration" : {
+        "inputValueKey" : "count_a",
+        "outputValueKey" : "meterReadingDelta_a",
+        "useCache" : true,
+        "addPeriodBetweenMsgs" : false,
+        "periodValueKey" : "periodInMs",
+        "round" : 2,
+        "tellFailureIfDeltaIsNegative" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e3895960-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Calculate Consumption Based on Pulse Counter",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.CalculateDeltaNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1373,
+        "layoutY" : 507
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_a",
+        "outputValueKey" : "dailyConsumption_a",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "DAY",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 1,
+        "aggIntervalTimeUnit" : "HOURS",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e389ce90-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_day",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1082,
+        "layoutY" : 416
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_a",
+        "outputValueKey" : "hourlyConsumption_a",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "HOUR",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 1,
+        "aggIntervalTimeUnit" : "HOURS",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38ae000-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_hour",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1192,
+        "layoutY" : 266
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38b2e20-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Message Type Switch",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1538,
+        "layoutY" : 264
+      },
+      "configuration" : {
+        "originatorTypes" : [ "DEVICE" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38ba350-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Is Device?",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1366,
+        "layoutY" : 416
+      },
+      "configuration" : {
+        "useMetadataPeriodInSecondsPatterns" : false,
+        "periodInSeconds" : 1,
+        "periodInSecondsPattern" : null,
+        "maxPendingMsgs" : 1000
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38c1880-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "1 sec",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.delay.TbMsgDelayNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1082,
+        "layoutY" : 517
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38c66a0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1382,
+        "layoutY" : 597
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38cb4c0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1093,
+        "layoutY" : 613
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38d29f0-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1386,
+        "layoutY" : 693
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e38d7810-278f-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 198,
+        "layoutY" : 561
+      },
+      "configuration" : {
+        "inputValueKey" : "count_b",
+        "outputValueKey" : "meterReadingDelta_b",
+        "useCache" : true,
+        "addPeriodBetweenMsgs" : false,
+        "periodValueKey" : "periodInMs",
+        "round" : 2,
+        "tellFailureIfDeltaIsNegative" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706d0c40-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Calculate Consumption Based on Pulse Counter",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.CalculateDeltaNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1950,
+        "layoutY" : 507
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_b",
+        "outputValueKey" : "dailyConsumption_b",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "DAY",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 1,
+        "aggIntervalTimeUnit" : "HOURS",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706da880-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_day",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1660,
+        "layoutY" : 504
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_b",
+        "outputValueKey" : "hourlyConsumption_b",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "HOUR",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 1,
+        "aggIntervalTimeUnit" : "HOURS",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706df6a0-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_hour",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1943,
+        "layoutY" : 416
+      },
+      "configuration" : {
+        "useMetadataPeriodInSecondsPatterns" : false,
+        "periodInSeconds" : 3,
+        "periodInSecondsPattern" : null,
+        "maxPendingMsgs" : 1000
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706e6bd0-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "3 sec",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.delay.TbMsgDelayNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1660,
+        "layoutY" : 605
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706ee100-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1959,
+        "layoutY" : 597
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706f2f20-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1671,
+        "layoutY" : 701
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706fa450-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1963,
+        "layoutY" : 693
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "706ff270-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1654,
+        "layoutY" : 413
+      },
+      "configuration" : {
+        "useMetadataPeriodInSecondsPatterns" : false,
+        "periodInSeconds" : 2,
+        "periodInSecondsPattern" : null,
+        "maxPendingMsgs" : 1000
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "707067a0-2791-11ee-85e2-974713d01e4a"
+      },
+      "name" : "2 sec",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.delay.TbMsgDelayNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2167,
+        "layoutY" : 507
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_a",
+        "outputValueKey" : "10mConsumption_a",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "CUSTOM",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 10,
+        "aggIntervalTimeUnit" : "MINUTES",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe84c930-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_day",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2160,
+        "layoutY" : 416
+      },
+      "configuration" : {
+        "useMetadataPeriodInSecondsPatterns" : false,
+        "periodInSeconds" : 4,
+        "periodInSecondsPattern" : null,
+        "maxPendingMsgs" : 1000
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe86c500-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "4 sec",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.delay.TbMsgDelayNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2176,
+        "layoutY" : 597
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe876140-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2180,
+        "layoutY" : 693
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe87d670-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2406,
+        "layoutY" : 513
+      },
+      "configuration" : {
+        "inputValueKey" : "meterReadingDelta_b",
+        "outputValueKey" : "10minConsumption_b",
+        "mathFunction" : "SUM",
+        "aggIntervalType" : "CUSTOM",
+        "timeZoneId" : "Asia/Bangkok",
+        "aggIntervalValue" : 10,
+        "aggIntervalTimeUnit" : "MINUTES",
+        "intervalPersistencePolicy" : "ON_EACH_MESSAGE",
+        "outMsgType" : "POST_TELEMETRY_REQUEST",
+        "intervalCheckValue" : 1,
+        "intervalCheckTimeUnit" : "MINUTES",
+        "statePersistencePolicy" : "ON_EACH_CHANGE",
+        "statePersistenceValue" : 1,
+        "statePersistenceTimeUnit" : "MINUTES",
+        "autoCreateIntervals" : false,
+        "periodValue" : 5,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "group",
+          "entityGroupId" : null
+        },
+        "queueName" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe882490-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "sum_kwh_day",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.analytics.incoming.TbSimpleAggMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2399,
+        "layoutY" : 422
+      },
+      "configuration" : {
+        "useMetadataPeriodInSecondsPatterns" : false,
+        "periodInSeconds" : 5,
+        "periodInSecondsPattern" : null,
+        "maxPendingMsgs" : 1000
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe8899c0-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "5 sec",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.delay.TbMsgDelayNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2415,
+        "layoutY" : 603
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe890ef0-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 2419,
+        "layoutY" : 699
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "fe895d10-35b2-11ee-85e2-974713d01e4a"
+      },
+      "name" : "Push to cloud",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

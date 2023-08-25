@@ -1,0 +1,86 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e3237da0-2458-11ee-85e2-974713d01e4a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c19f45a0-26de-11ee-917f-d1a58daa6e1a"
+    },
+    "label" : "",
+    "name" : "PM Vision",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "softwareId" : null,
+    "type" : "energy-meter"
+  },
+  "credentials" : {
+    "credentialsId" : "PbY0v3Uj5uepWdq0odvr",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "EDGE",
+      "id" : "4fc3a4d0-25ee-11ee-85e2-974713d01e4a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c19f45a0-26de-11ee-917f-d1a58daa6e1a"
+    },
+    "type" : "ManagedByEdge",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1692616432817,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1692616431883,
+      "longValue" : 1692616431883,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1692947855955,
+      "longValue" : 1692947855948,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

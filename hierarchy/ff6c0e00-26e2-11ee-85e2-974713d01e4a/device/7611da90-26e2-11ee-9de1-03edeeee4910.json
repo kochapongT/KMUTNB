@@ -1,0 +1,86 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e3237da0-2458-11ee-85e2-974713d01e4a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "7611da90-26e2-11ee-9de1-03edeeee4910"
+    },
+    "label" : "Sub - Park",
+    "name" : "PM Park",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "softwareId" : null,
+    "type" : "energy-meter"
+  },
+  "credentials" : {
+    "credentialsId" : "WEHL8WP674j1H2SilRGx",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "EDGE",
+      "id" : "4fc3a4d0-25ee-11ee-85e2-974713d01e4a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "7611da90-26e2-11ee-9de1-03edeeee4910"
+    },
+    "type" : "ManagedByEdge",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1692616432936,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1692616431756,
+      "longValue" : 1692616431756,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1692947856055,
+      "longValue" : 1692947856045,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

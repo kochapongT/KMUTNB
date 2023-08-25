@@ -1,0 +1,94 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e3237da0-2458-11ee-85e2-974713d01e4a"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "304c8750-2776-11ee-aa71-bdf60ecb2d7f"
+    },
+    "label" : "Main - Incoming",
+    "name" : "PM Main Incoming",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ff6c0e00-26e2-11ee-85e2-974713d01e4a"
+    },
+    "softwareId" : null,
+    "type" : "energy-meter"
+  },
+  "credentials" : {
+    "credentialsId" : "6LVVYGb79RNfiGzDEBe3",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "EDGE",
+      "id" : "e36149f0-2458-11ee-85e2-974713d01e4a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "304c8750-2776-11ee-aa71-bdf60ecb2d7f"
+    },
+    "type" : "ManagedByEdge",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1692616432669,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1692616431901,
+      "longValue" : 1692616431900,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1692947855690,
+      "longValue" : 1692947855684,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "text",
+      "lastUpdateTs" : 1692686211473,
+      "longValue" : null,
+      "strValue" : "KMUTNB INV Zone Inactive!!!3"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
